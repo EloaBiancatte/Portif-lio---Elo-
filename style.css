@@ -1,0 +1,91 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #9b6072);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #9b6072);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffe082;
+}
+
+section {
+  background: white;
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #1d2b64;
+}
+
+.foto {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #9b6072;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #9b6072;
+  margin: 8px auto;
+  padding: 8px 15px;
+  border-radius: 8px;
+  width: fit-content;
+  font-weight: 500;
+}
+
+.botao, button {
+  display: inline-block;
+  background: linear-gradient(90deg, #9b6072);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.botao:hover, button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #9b6072);
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(90deg, #9b6072);
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+  border-top: 2px solid #fff;
+}
